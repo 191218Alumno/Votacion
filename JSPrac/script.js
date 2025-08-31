@@ -29,7 +29,7 @@ btn2.addEventListener('click', function(){
     btn2.textContent = 'votado';
 });
 
-btn1.addEventListener('click', function(){
+btn3.addEventListener('click', function(){
     urn++;
     conta3.textContent = urn;
     btn3.disabled = true;

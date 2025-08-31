@@ -11,6 +11,23 @@
       margin: 0;
       padding: 0;
     }
+    nav {
+      background: #222;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #00bfff;
+    }
     header {
       background: #333;
       color: #fff;
@@ -69,6 +86,11 @@
   </style>
 </head>
 <body>
+
+  <nav>
+  <a href="login.html">Login</a>
+  <a href="register.html">Register</a>
+  </nav>
 
   <header>
     <h1>Academia STEM</h1>
