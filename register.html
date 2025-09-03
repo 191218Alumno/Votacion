@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registro</title>
+  <title>Registro de Usuario</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -18,7 +18,7 @@
       padding: 25px;
       border-radius: 10px;
       box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
-      width: 320px;
+      width: 300px;
       text-align: center;
     }
     input {
@@ -54,15 +54,13 @@
 </head>
 <body>
   <div class="container">
-    <h2>Crear Usuario</h2>
+    <h2>Crear Cuenta</h2>
     <form action="procesar_registro.php" method="POST">
       <input type="text" name="usuario" placeholder="Usuario" required>
-      <input type="email" name="correo" placeholder="Correo electrónico" required>
       <input type="password" name="password" placeholder="Contraseña" required>
-      <input type="password" name="confirmar" placeholder="Confirmar contraseña" required>
-      <button type="submit">Registrar</button>
+      <button type="submit">Registrarse</button>
     </form>
-    <a href="login.html">Volver al inicio de sesión</a>
+    <a href="login.html">Ya tengo cuenta</a>
   </div>
 </body>
 </html>
